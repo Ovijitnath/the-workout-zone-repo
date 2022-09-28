@@ -21,3 +21,43 @@
     margin-top: 15px;
     margin-right: 20px;
 }
+
+.rightSide-container img {
+
+    width: 50px;
+    border-radius: 30px;
+}
+
+.my-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-address {
+    padding: 10px;
+}
+
+.p-info {
+    padding: 15px;
+    margin: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-all {
+
+    padding: 25px;
+    margin: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-break {
+    border-radius: 20px;
+    background-color: burlywood;
+}
