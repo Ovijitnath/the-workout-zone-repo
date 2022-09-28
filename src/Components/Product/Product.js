@@ -11,6 +11,9 @@ const Product = (props) => {
                 <p><small>Seller: {seller}</small></p>
 
             </div>
+            <button className='btn-cart'>
+                <p>Add To List</p>
+            </button>
         </div>
     );
 };

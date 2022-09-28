@@ -3,6 +3,10 @@
     grid-template-columns: 4fr 1fr;
 }
 
+.leftSide-container {
+    margin-left: 30px;
+}
+
 .allCards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
