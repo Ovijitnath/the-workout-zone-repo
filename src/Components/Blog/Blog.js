@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div className='allQuestions-container'>
 
-            <div>
+            <div className='blogParagraph'>
                 <h1>
                     How Does React Works?
                 </h1>
@@ -16,7 +16,7 @@ const Blog = () => {
 
                     This article will explore React’s features, explain how it works, and go over its benefits for front-end developers. We’ll also cover the differences between ReactJS and React Native regarding their roles in the web and mobile app development industry.</strong></p>
             </div>
-            <div>
+            <div className='blogParagraph'>
                 <h1>
                     What Is The Difference Between Props Vs State?
                 </h1>
@@ -29,7 +29,7 @@ const Blog = () => {
 
                     A prop can be passed on to the child in the state of a parent. They apply to the same value but can only be updated by the parent variable.</strong></p>
             </div>
-            <div>
+            <div className='blogParagraph'>
                 <h1>
                     In What Other Sectors The "useEffect()" Is Used Except Data Load?
                 </h1>

@@ -6,3 +6,9 @@
     border-radius: 14px;
     box-shadow: 4px 4px 4px gray;
 }
+
+.blogParagraph {
+    background-color: bisque;
+    box-shadow: 4px 4px 4px rgb(156, 154, 154);
+    padding: 5px;
+}

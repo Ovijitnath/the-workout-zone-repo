@@ -1,6 +1,6 @@
 .home-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 1fr;
 }
 
 .leftSide-container {
@@ -32,7 +32,7 @@
 
 .rightSide-container img {
 
-    width: 50px;
+    width: 80px;
     border-radius: 40px;
 }
 
@@ -44,6 +44,7 @@
 
     .home-container {
         grid-template-columns: repeat(1, 1fr);
-        /* margin: 15px; */
+        /* margin-left: 25px;
+        margin-right: 0px; */
     }
 }
