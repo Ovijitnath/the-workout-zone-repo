@@ -3,7 +3,7 @@ import logo from './300and300.jpg';
 import './Cart.css'
 import Swal from 'sweetalert2'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
     return (
         <div>
             <div className='my-bio'>
@@ -50,6 +50,7 @@ const Cart = () => {
             <br />
             <div>
                 <button className='complete-btn'>Activity Completed</button>
+                <br />
 
                 {/* Swal.fire(
   'Good job!',
