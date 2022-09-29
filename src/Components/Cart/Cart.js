@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './300and300.jpg';
 import './Cart.css'
 
 
 const Cart = ({ cart }) => {
 
+    const [time, setTime] = useState();
+    const handleClick10 = () => {
+        setTime(10);
+    }
+    const handleClick20 = () => {
+        setTime(20);
+    }
+    const handleClick30 = () => {
+        setTime(30);
+    }
+    const handleClick40 = () => {
+        setTime(40);
+    }
+    const handleClick50 = () => {
+        setTime(50);
+    }
     let total = 0;
     for (const product of cart) {
         total = total + product.time;
@@ -37,11 +53,11 @@ const Cart = ({ cart }) => {
 
                 <h2>Add A Break</h2>
                 <div className='allBtn-container'>
-                    <button className='btn-break'>10m</button>
-                    <button className='btn-break'>20m</button>
-                    <button className='btn-break'>30m</button>
-                    <button className='btn-break'>40m</button>
-                    <button className='btn-break'>50m</button>
+                    <button onClick={handleClick10} className='btn-break'>10s</button>
+                    <button onClick={handleClick20} className='btn-break'>20s</button>
+                    <button onClick={handleClick30} className='btn-break'>30s</button>
+                    <button onClick={handleClick40} className='btn-break'>40s</button>
+                    <button onClick={handleClick50} className='btn-break'>50s</button>
                 </div>
             </div>
             <br />
@@ -49,7 +65,7 @@ const Cart = ({ cart }) => {
                 <h2>Exercise Details</h2>
                 <div>
                     <h3 className='time-details'>Exercise Time :  {total} minutes</h3>
-                    <h3 className='time-details'>Break Time : </h3>
+                    <h3 className='time-details'>Break Time : {time} secs</h3>
                 </div>
             </div>
             <br />
