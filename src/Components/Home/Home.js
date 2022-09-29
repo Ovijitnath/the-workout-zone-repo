@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell, } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 
+
 import Product from '../Product/Product';
 import './Home.css'
 import Cart from '../Cart/Cart';

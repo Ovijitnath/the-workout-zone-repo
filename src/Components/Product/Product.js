@@ -8,9 +8,9 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} alt=""></img>
             <div className='product-info'>
-                <h4 className='product-name'><strong>{name}</strong></h4>
-                <p>Age: {age}</p>
-                <p>Time: {time}</p>
+                <h4 className='product-name'><strong> {name}</strong></h4>
+                <p>Age: {age} years</p>
+                <p>Time: {time} minutes</p>
 
             </div>
             <button onClick={() => handleAddToCart(product)} className='btn-cart'>

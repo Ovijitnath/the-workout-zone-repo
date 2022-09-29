@@ -1,9 +1,15 @@
 import React from 'react';
 import logo from './300and300.jpg';
 import './Cart.css'
-import Swal from 'sweetalert2'
+
 
 const Cart = ({ cart }) => {
+
+    let total = 0;
+    for (const product of cart) {
+        total = total + product.time;
+    }
+
     return (
         <div>
             <div className='my-bio'>
@@ -42,7 +48,7 @@ const Cart = ({ cart }) => {
             <div>
                 <h2>Exercise Details</h2>
                 <div>
-                    <h3 className='time-details'>Exercise Time :</h3>
+                    <h3 className='time-details'>Exercise Time :  {total} minutes</h3>
                     <h3 className='time-details'>Break Time : </h3>
                 </div>
             </div>
@@ -50,13 +56,8 @@ const Cart = ({ cart }) => {
             <br />
             <div>
                 <button className='complete-btn'>Activity Completed</button>
-                <br />
 
-                {/* Swal.fire(
-  'Good job!',
-  'You clicked the button!',
-  'success'
-) */}
+                <br />
             </div>
         </div>
     );
