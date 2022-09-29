@@ -28,11 +28,6 @@
   color: #61dafb;
 }
 
-.allQuestions-container {
-  width: 75%;
-  margin: 80px;
-  padding-right: 30px;
-}
 
 @keyframes App-logo-spin {
   from {
