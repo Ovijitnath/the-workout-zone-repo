@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './300and300.jpg';
 import './Cart.css'
+import Swal from 'sweetalert2'
+
 const Cart = () => {
     return (
         <div>
@@ -24,7 +26,9 @@ const Cart = () => {
                     <p>Age</p>
                 </div>
             </div>
+            <br />
             <div>
+
                 <h2>Add A Break</h2>
                 <div className='allBtn-container'>
                     <button className='btn-break'>10m</button>
@@ -34,12 +38,24 @@ const Cart = () => {
                     <button className='btn-break'>50m</button>
                 </div>
             </div>
+            <br />
             <div>
                 <h2>Exercise Details</h2>
                 <div>
-                    <h3>Exercise Time :</h3>
-                    <h3>Break Time : </h3>
+                    <h3 className='time-details'>Exercise Time :</h3>
+                    <h3 className='time-details'>Break Time : </h3>
                 </div>
+            </div>
+            <br />
+            <br />
+            <div>
+                <button className='complete-btn'>Activity Completed</button>
+
+                {/* Swal.fire(
+  'Good job!',
+  'You clicked the button!',
+  'success'
+) */}
             </div>
         </div>
     );
