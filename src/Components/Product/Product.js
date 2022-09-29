@@ -6,13 +6,13 @@ const Product = (props) => {
         <div className='product'>
             <img src={img} alt=""></img>
             <div className='product-info'>
-                <h5 className='product-name'>{name}</h5>
+                <h4 className='product-name'><strong>{name}</strong></h4>
                 <p>Age: {age}</p>
                 <p>Time: {time}</p>
 
             </div>
             <button className='btn-cart'>
-                <p>Add To List</p>
+                <p><strong> Add To List</strong></p>
             </button>
         </div>
     );

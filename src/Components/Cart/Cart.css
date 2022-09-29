@@ -1,0 +1,46 @@
+.my-bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-address {
+    padding: 10px;
+}
+
+.p-info {
+    padding: 15px;
+    margin: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allBtn-container {
+
+    padding: 25px;
+    margin: 12px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn-break {
+    border-radius: 50%;
+    background-color: rgb(250, 212, 163);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.btn-break:hover {
+    background-color: chocolate;
+}
