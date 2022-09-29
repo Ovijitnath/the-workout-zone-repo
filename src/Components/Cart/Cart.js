@@ -28,7 +28,9 @@ const Cart = ({ cart }) => {
         total = total + product.time;
     }
 
+    localStorage.setItem('time', JSON.stringify(time));
     const notify = () => toast("Completed! Wow so easy!");
+
     return (
         <div>
             <div className='my-bio'>
